@@ -29,7 +29,7 @@ spring:
         password: '1234'
         platform: postgresql
         url: jdbc:postgresql://localhost/revex-auth
-        username: revex
+        username: revex1
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
         generate-ddl: false
