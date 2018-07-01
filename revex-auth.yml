@@ -19,8 +19,7 @@ security:
             access-token-validity-seconds: 1800
             authorized-grant-types: password,refresh_token
             client-id: revex
-            #client-secret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
-            client-secret: $2a$10$S0X7MjQPZi7vBqGwF0YvVOTF8yuSW5ciUQJNrKRADQhM.Of/qBVAC
+            client-secret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
             resource-ids: resources
             scope: read,write
 
