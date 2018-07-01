@@ -33,6 +33,10 @@ spring:
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
         generate-ddl: false
+        properties:
+          hibernate:
+            jdbc:
+              lob.non_contextual_creation: true
         hibernate:
           ddl-auto: none
           show-sql: true
