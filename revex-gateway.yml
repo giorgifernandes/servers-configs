@@ -16,9 +16,9 @@ eureka:
 # A prefix that can added to beginning of all requests. 
 zuul:
   prefix: /api
-  #ignored-services: *
-  #routes:
-  #  revex-auth:
-  #    path: /oauth/**
-  #    service-id: revex-auth
+  ignored-services: *
+  routes:
+    revex-auth:
+      path: /users/**
+      service-id: revex-auth
     
